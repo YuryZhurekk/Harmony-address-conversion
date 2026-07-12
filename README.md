@@ -20,3 +20,10 @@ the Harmony blockchain address format. It uses Harmony's official
    ```
 
 Converted Harmony addresses are printed to standard output with line numbers.
+
+## Notes
+
+- Run the command from the repository root because the script reads
+  `wallets.txt` using a relative path.
+- Conversion results are printed to the terminal; the input file is not
+  modified.
